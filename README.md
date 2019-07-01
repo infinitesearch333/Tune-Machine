@@ -1,3 +1,4 @@
+<img src = "App-Logo.png" width = "399" height = "64"><br><br>
 __Overview:__<br>
 Tune Machine is an applicaiton that allows users to listen to the Billboard top chart hits of a specific year and genre.
 
