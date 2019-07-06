@@ -7,16 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA7B48CC22CD3DC600D032D0 /* LoginScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B48CB22CD3DC600D032D0 /* LoginScreenPresenter.swift */; };
+		BA7B48CF22CD4E3800D032D0 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA7B48CE22CD4E3800D032D0 /* Lato-Regular.ttf */; };
+		BA7B48D222CD579900D032D0 /* UIAttributesConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B48D122CD579900D032D0 /* UIAttributesConstants.swift */; };
+		BA7B48D422CD882D00D032D0 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA7B48D322CD882D00D032D0 /* Lato-Bold.ttf */; };
+		BAA4C31822CE87B300DA600E /* DirectionsLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA4C31722CE87B300DA600E /* DirectionsLabel.swift */; };
+		BAA4C32022CF0DB300DA600E /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA4C31F22CF0DB300DA600E /* MainButton.swift */; };
 		BADBEEF422CD1D0600E7F632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADBEEF322CD1D0600E7F632 /* AppDelegate.swift */; };
-		BADBEEF922CD1D0600E7F632 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADBEEF722CD1D0600E7F632 /* Main.storyboard */; };
 		BADBEEFB22CD1D0800E7F632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BADBEEFA22CD1D0800E7F632 /* Assets.xcassets */; };
 		BADBEEFE22CD1D0800E7F632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADBEEFC22CD1D0800E7F632 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA7B48CB22CD3DC600D032D0 /* LoginScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenPresenter.swift; sourceTree = "<group>"; };
+		BA7B48CE22CD4E3800D032D0 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		BA7B48D122CD579900D032D0 /* UIAttributesConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAttributesConstants.swift; sourceTree = "<group>"; };
+		BA7B48D322CD882D00D032D0 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		BAA4C31722CE87B300DA600E /* DirectionsLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsLabel.swift; sourceTree = "<group>"; };
+		BAA4C31F22CF0DB300DA600E /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
 		BADBEEF022CD1D0600E7F632 /* Tune Machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tune Machine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BADBEEF322CD1D0600E7F632 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BADBEEF822CD1D0600E7F632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BADBEEFA22CD1D0800E7F632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BADBEEFD22CD1D0800E7F632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BADBEEFF22CD1D0800E7F632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +43,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA7B48CA22CD3D9800D032D0 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				BA7B48CB22CD3DC600D032D0 /* LoginScreenPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		BA7B48CD22CD4E0F00D032D0 /* App_Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BA7B48CE22CD4E3800D032D0 /* Lato-Regular.ttf */,
+				BA7B48D322CD882D00D032D0 /* Lato-Bold.ttf */,
+			);
+			path = App_Fonts;
+			sourceTree = "<group>";
+		};
+		BA7B48D022CD575000D032D0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				BA7B48D122CD579900D032D0 /* UIAttributesConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		BAA4C31422CE691800DA600E /* Reusable_Costume_UI_Elements */ = {
+			isa = PBXGroup;
+			children = (
+				BAA4C31722CE87B300DA600E /* DirectionsLabel.swift */,
+				BAA4C31F22CF0DB300DA600E /* MainButton.swift */,
+			);
+			path = Reusable_Costume_UI_Elements;
+			sourceTree = "<group>";
+		};
 		BADBEEE722CD1D0600E7F632 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +96,11 @@
 		BADBEEF222CD1D0600E7F632 /* Tune Machine */ = {
 			isa = PBXGroup;
 			children = (
+				BAA4C31422CE691800DA600E /* Reusable_Costume_UI_Elements */,
+				BA7B48D022CD575000D032D0 /* Constants */,
+				BA7B48CD22CD4E0F00D032D0 /* App_Fonts */,
+				BA7B48CA22CD3D9800D032D0 /* Presenters */,
 				BADBEEF322CD1D0600E7F632 /* AppDelegate.swift */,
-				BADBEEF722CD1D0600E7F632 /* Main.storyboard */,
 				BADBEEFA22CD1D0800E7F632 /* Assets.xcassets */,
 				BADBEEFC22CD1D0800E7F632 /* LaunchScreen.storyboard */,
 				BADBEEFF22CD1D0800E7F632 /* Info.plist */,
@@ -120,8 +167,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BADBEEFE22CD1D0800E7F632 /* LaunchScreen.storyboard in Resources */,
+				BA7B48CF22CD4E3800D032D0 /* Lato-Regular.ttf in Resources */,
 				BADBEEFB22CD1D0800E7F632 /* Assets.xcassets in Resources */,
-				BADBEEF922CD1D0600E7F632 /* Main.storyboard in Resources */,
+				BA7B48D422CD882D00D032D0 /* Lato-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,21 +180,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAA4C31822CE87B300DA600E /* DirectionsLabel.swift in Sources */,
+				BA7B48CC22CD3DC600D032D0 /* LoginScreenPresenter.swift in Sources */,
+				BA7B48D222CD579900D032D0 /* UIAttributesConstants.swift in Sources */,
 				BADBEEF422CD1D0600E7F632 /* AppDelegate.swift in Sources */,
+				BAA4C32022CF0DB300DA600E /* MainButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BADBEEF722CD1D0600E7F632 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BADBEEF822CD1D0600E7F632 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BADBEEFC22CD1D0800E7F632 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
